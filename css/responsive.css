@@ -1,0 +1,56 @@
+/* Tablet and below */
+@media (max-width: 768px) {
+  .faq-card {
+    max-width: 540px;
+  }
+}
+
+/* Desktop background */
+@media (min-width: 768px) {
+  .faq-background {
+    background-image: url("../assets/imgs/background-pattern-desktop.svg");
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .faq {
+    padding: 16px;
+  }
+
+  .faq-card {
+    padding: 24px 20px;
+  }
+
+  .faq-title {
+    font-size: 24px;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  .faq-star {
+    width: 24px;
+    height: 24px;
+  }
+
+  .accordion-header h5 {
+    font-size: 14px;
+  }
+
+  .accordion-content p {
+    font-size: 14px;
+    padding-right: 24px;
+  }
+
+  .toggle-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* Small mobile */
+@media (max-width: 375px) {
+  .faq-card {
+    padding: 20px 16px;
+  }
+}

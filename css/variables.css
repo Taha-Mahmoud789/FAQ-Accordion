@@ -1,0 +1,23 @@
+:root {
+  /* Colors */
+  --white: hsl(0, 100%, 100%);
+  --purple-100: hsl(275, 100%, 97%);
+  --purple-600: hsl(292, 16%, 49%);
+  --purple-950: hsl(292, 42%, 14%);
+  --purple-hover: hsl(292, 80%, 55%);
+
+  /* Typography */
+  --font-family: "Work Sans", sans-serif;
+  --fs-body: 16px;
+  --fw-regular: 400;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  /* Spacing */
+  --card-radius: 12px;
+  --card-padding: 32px 24px;
+  --card-max-width: 600px;
+
+  /* Transitions */
+  --transition-speed: 0.3s;
+}
