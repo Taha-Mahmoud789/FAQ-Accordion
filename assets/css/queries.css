@@ -8,7 +8,7 @@
 /* Desktop background */
 @media (min-width: 768px) {
   .faq-background {
-    background-image: url("../assets/imgs/background-pattern-desktop.svg");
+    background-image: url("../imgs/background-pattern-desktop.svg");
   }
 }
 
